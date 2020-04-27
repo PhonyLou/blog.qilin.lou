@@ -85,7 +85,7 @@ FootnoteReturnLinkContents = "↑"
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 2
-    url = "https://www.linkedin.com/in/qilin-lou-2764b7110/
+    url = "https://www.linkedin.com/in/qilin-lou-2764b7110/"
 
 [languages]
     [languages.en]
