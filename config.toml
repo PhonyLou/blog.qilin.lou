@@ -1,10 +1,8 @@
 baseurl = "https://heuristic-northcutt-3620c2.netlify.app/"
 title = "Qilin Lou's Blog"
-
 theme = "hugo-coder"
-
-languagecode = "en"
-defaultcontentlanguage = "en"
+languagecode = "zh-cn"
+defaultcontentlanguage = "zh-cn"
 
 paginate = 20
 canonifyurls = true
@@ -124,35 +122,35 @@ disqusShortname = "yourdiscussshortname"
             url = "contact/"
 
 
-    [languages.pt-br]
-        languagename = "Português"
-        title = "João Ninguém"
+    [languages.zh-ch]
+        languagename = "Chinese"
+        title = "娄麒麟的博客"
 
-        [languages.pt-br.params]
-            author = "João Ninguém"
-            info = "Full Stack DevOps e Mágico"
-            description = "Sítio pessoal de João Ninguém"
+        [languages.zh-cn.params]
+            author = "娄麒麟"
+            info = "Code & Engineer & Consultant"
+            description = "娄师傅写字的地方"
             keywords = "blog,desenvolvedor,pessoal"
-            footercontent = "Coloque algum texto aqui."
+            #footercontent = "Coloque algum texto aqui." 
+     
+        [languages.zh-cn.menu]
 
-        [languages.pt-br.menu]
-
-            [[languages.pt-br.menu.main]]
-            name = "Sobre"
+            [[languages.zh-cn.menu.main]]
+            name = "关于"
             weight = 1
             url = "about/"
 
-            [[languages.pt-br.menu.main]]
-            name = "Blog"
+            [[languages.zh-cn.menu.main]]
+            name = "博客"
             weight = 2
             url = "posts/"
 
-            [[languages.pt-br.menu.main]]
-            name = "Projetos"
+            [[languages.zh-cn.menu.main]]
+            name = "项目"
             weight = 3
             url = "projects/"
 
-            [[languages.pt-br.menu.main]]
-            name = "Contato"
+            [[languages.zh-cn.menu.main]]
+            name = "联系我"
             weight = 5
             url = "contact/"
