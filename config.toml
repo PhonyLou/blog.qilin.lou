@@ -4,30 +4,54 @@ theme = "hugo-coder"
 languagecode = "zh-cn"
 defaultcontentlanguage = "zh-cn"
 
+enableRobotsTXT = true
+canonifyURLs = true
+
 paginate = 20
 canonifyurls = true
 
 pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+pluralizelisttitles = false
 
-disqusShortname = "yourdiscussshortname"
+FootnoteReturnLinkContents = "↑"
+
+[markup.goldmark.renderer]
+    unsafe= true
+
+[outputs]
+  page     = ["HTML", "AMP"]
+  home     = ["HTML", "RSS"]
+  section  = ["HTML"]
+  taxonomyTerm = ["HTML"]
+  taxonomy = ["HTML"]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
 
 [params]
     author = "Qilin Lou"
-    description = "Qilin Lou's Blog"
-    keywords = "blog,desenvolvedor,pessoal"
     info = "Code & Engineer & Consultant"
+    description = "Qilin Lou's Blog"
+    keywords = "blog, code, agile, and others"
     avatarurl = "images/avatar.jpg"
-    #gravatar = "louqilin555@gmail.com"
-    #footercontent = "Enter a text here."
+    logoImg = "images/favicon-16x16.png"
+    header = "blog.qilinlou.com"
 
-    dateformat = "January 2, 2006"
+    github = "PhonyLou"
 
-    hideFooter = false
-    hideCredits = false
-    hideCopyright = false
-    since = 2019
+    favicon_32 = "images/favicon-32x32.png"
+    favicon_16 = "images/favicon-16x16.png"
+
+    # footercontent = "self/dev/money"
+
+    hidecredits = true
+    hidecopyright = false
+
+    series = true
 
     rtl = false
 
@@ -41,16 +65,11 @@ disqusShortname = "yourdiscussshortname"
     # Series see also post count
     maxSeeAlsoItems = 5
 
-    # Custom CSS
-    custom_css = []
+    math = true
+    custom_css = ["/css/main.css"]
+    custom_js = ["/js/lazysizes.min.js"]
 
-    # Custom JS
-    custom_js = []
-
-[taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
+    dateFormat = "2006-01-02"
 
 # Comments on github issue
 [params.utteranc]
@@ -58,6 +77,7 @@ disqusShortname = "yourdiscussshortname"
     issue-term = "pathname"
     theme = "github-light"
 
+# Social links
 [[params.social]]
     name = "Github"
     icon = "fab fa-github"
@@ -67,8 +87,7 @@ disqusShortname = "yourdiscussshortname"
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 2
-    url = "https://www.linkedin.com/in/qilin-lou-2764b7110/"
-
+    url = "https://www.linkedin.com/in/qilin-lou-2764b7110/
 
 [languages]
     [languages.en]
@@ -96,8 +115,7 @@ disqusShortname = "yourdiscussshortname"
             weight = 4
             url = "agile/"
 
-
-    [languages.zh-ch]
+    [languages.zh-cn]
         languagename = "Chinese"
         title = "娄麒麟的博客"
 
@@ -106,7 +124,7 @@ disqusShortname = "yourdiscussshortname"
             info = "代码 & 工程实践 & 咨询"
             description = "娄师傅写字的地方"
             keywords = "blog,desenvolvedor,pessoal"
-     
+
         [languages.zh-cn.menu]
 
             [[languages.zh-cn.menu.main]]
@@ -126,5 +144,5 @@ disqusShortname = "yourdiscussshortname"
 
             [[languages.zh-cn.menu.main]]
             name = "敏捷"
-            weight = 5
+            weight = 4
             url = "agile/"
