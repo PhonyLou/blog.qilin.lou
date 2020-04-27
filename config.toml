@@ -1,4 +1,4 @@
-baseurl = "https://heuristic-northcutt-3620c2.netlify.app/"
+baseurl = "https://blog.qilinlou.com"
 title = "Qilin Lou's Blog"
 theme = "hugo-coder"
 languagecode = "zh-cn"
