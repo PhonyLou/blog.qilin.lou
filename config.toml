@@ -19,7 +19,7 @@ disqusShortname = "yourdiscussshortname"
     keywords = "blog,desenvolvedor,pessoal"
     info = "Code & Engineer & Consultant"
     avatarurl = "images/avatar.jpg"
-    gravatar = "louqilin555@gmail.com"
+    #gravatar = "louqilin555@gmail.com"
     #footercontent = "Enter a text here."
 
     dateformat = "January 2, 2006"
