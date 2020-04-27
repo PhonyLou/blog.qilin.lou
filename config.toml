@@ -1,5 +1,5 @@
-baseurl = "http://www.example.com"
-title = "johndoe"
+baseurl = "https://heuristic-northcutt-3620c2.netlify.app/"
+title = "Qilin Lou's Blog"
 
 theme = "hugo-coder"
 
