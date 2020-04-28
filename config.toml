@@ -114,7 +114,7 @@ FootnoteReturnLinkContents = "↑"
             url = "agile/"
 
     [languages.ch]
-        languagename = "Chinese"
+        languagename = "中文"
         title = "娄麒麟的博客"
 
         [languages.ch.params]
