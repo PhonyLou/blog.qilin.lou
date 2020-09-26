@@ -13,17 +13,13 @@ My technology stack includes Java, Scala, AWS, microservice architecture, agile 
 
 ## Now
 
-Currently, I am committed to improving the delivery capabilities of agile teams, from a **developer**'s perspective.
-
-When we talk about ability, I think the team's delivery ability depends on the ability of the team members, that is, technical ability and leadership. Leadership is a matter of opinion, and I don't want to think now.
-
-As for technical ability, I think it matters and can be divided into the following construction-like perspective:
+Currently, I am committed to improving the delivery capabilities of agile teams, from a **developer**'s perspective, including:
 
 * Coding ability - Craft
 * Architecture ability - Drawing blueprint
 * Engineering Practice Ability - Construction Process
 
-I spent a lot of time on project management, and now I am ready to make up for the technical ability. Start by learning how to code again.
+I spent a lot of time on project management, and now I change my way to focus on technical and delivery.
 
-Of course, I also have many other interesting things, such as DDD, Functional Programming. If you are interested as well, feel free to [mail me](mailto:louqilin555@gmail.com).
+Of course, I also have many other interesting things, such as DDD, Functional Programming. Feel free to [mail me](mailto:louqilin555@gmail.com).
 
