@@ -4,7 +4,7 @@ title = "TDD in Scala - 1, tasking and base UT"
 
 ## Set-up a basic Scala project by using sbt
 
-Assuming all prerequiste have been installed in your matchine, in my case, they are: JDK8, Scala 2.12.8, SBT 1.3.3, and IDEA.
+Assuming all prerequisites have been installed in your machine, in my case, they are: JDK8, Scala 2.12.8, SBT 1.3.3, and IDEA.
 
 Create a new project in IDEA named `tdd_with_example`. 
 
@@ -27,12 +27,12 @@ Make sure all of the dependencies are already getting done in your project.
 
 ## Tasking
 
-Referring from the book <i>Test-Driven Development By Example</i>, we are now having two basic tasks
+Referring to the book <i>Test-Driven Development By Example</i>, we are now having two basic tasks
 
 * $5 + 10 CHF = $10 if rate is 2:1
 * $5 * 2 = $10
 
-The secode one is much easier than top one, so we would like to implement it. So let's mark it bold.
+The second one is much easier than top one, so we would like to implement it. So let's mark it bold.
 
 * $5 + 10 CHF = $10 if rate is 2:1
 * <b>$5 * 2 = $10</b>
@@ -89,7 +89,7 @@ So, where are we now? Back to the rhythm and cross some items off
 - Make test correct (By write production code)
 - Remove duplication between test and production code
 
-Looks we need to let the test pass. Actually, I have the fastest magic to let the bar turn green, just as following
+Looks we need to let the test pass. I have the fastest magic to let the bar turn green, just as following
 
 ``` Scala
 package com.example
@@ -103,7 +103,7 @@ case class Dollar(amount: Int) {
 
 Awesome! But wait, wait a moment. Something must be wrong, hard code doesn't make any sense, right?
 
-But how to reveal the problem? We need another test case from some different direction. This kind of methodology called <b>Triangulation</b>.
+But how to reveal the problem? We need another test case from a different direction. This kind of methodology called <b>Triangulation</b>.
 
 Let's add one assertion to our test code: `five.times(3) shouldEqual 15`. And it will reveal the reality to us, that is, hard code cannot help us deal with changing scenarios.
 
@@ -130,4 +130,4 @@ case class Dollar(amount: Int) {
 
 Does there any duplication between test and production code? Looks no, we eliminated them by reducing hard code.
 
-So now we finish our first cycle of TDD. Commit our change to Github and prepare to next one.
+So now we finish our first cycle of TDD. Commit our change to Github and prepare for the next one.
