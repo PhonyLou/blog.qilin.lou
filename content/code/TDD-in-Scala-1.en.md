@@ -83,6 +83,7 @@ case class Dollar(amount: Int) {
 ```
 
 So, where are we now? Back to the rhythm and cross some items off
+
 - ~~Write a test (Even it cannot compile)~~
 - ~~Make it pass compile~~
 - ~~Run the test (Definitely it returns wrong, no worry)~~
